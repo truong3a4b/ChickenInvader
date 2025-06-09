@@ -1,0 +1,263 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MenuScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "background1.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "button",
+            "X": 35,
+            "Y": 160,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Sq_Press.png",
+            "Released": "__designer\\Blue_Buttons_Sq.png",
+            "TextId": "__SingleUse_TMC2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ChangeToGameScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "GameScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GameScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "bg3",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "bg3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bg2",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "bg2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bg1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "bg1.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "menu_button",
+            "X": 38,
+            "Y": 160,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Dark_Buttons_Square_small.png",
+            "Released": "__designer\\Dark_Buttons_Square_small.png",
+            "TextId": "__SingleUse_US78",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "score_holder",
+            "Y": 114,
+            "Width": 240,
+            "Height": 34,
+            "TextId": "__SingleUse_CR3V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage1",
+            "X": 208,
+            "Y": 1,
+            "Width": 32,
+            "Height": 32,
+            "Visible": false,
+            "FileNameFirst": "chickenRed1.png",
+            "FileNameLast": "chickenRed2.png",
+            "UpdateTicksInterval": 10,
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "heart_01",
+            "X": 134,
+            "Y": 1,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "heart.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "heart_02",
+            "X": 169,
+            "Y": 1,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "heart.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "heart_03",
+            "X": 204,
+            "Y": 1,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "heart.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "score_board",
+            "X": 8,
+            "Y": 4,
+            "Width": 96,
+            "Height": 29,
+            "TextId": "__SingleUse_DB1K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_Z94D",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menu_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "MenuScreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "Width": 250,
+        "Height": 250,
+        "Components": [],
+        "Interactions": []
+      }
+    ],
+    "Name": "Space_in",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "MenuScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

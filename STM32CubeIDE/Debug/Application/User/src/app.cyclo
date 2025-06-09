@@ -1,0 +1,8 @@
+../Application/User/src/app.cpp:229:6:void updateEnemy(uint8_t)	7
+../Application/User/src/app.cpp:284:6:void updateShipBullet(uint8_t)	4
+../Application/User/src/app.cpp:300:6:void updateEnemyBullet(uint8_t)	8
+../Application/User/src/app.cpp:318:6:void updateBoss(uint8_t)	3
+../Application/User/src/app.cpp:329:6:void updateBossBullet(uint8_t)	7
+../Application/User/src/app.cpp:29:6:void gameTask(void*)	37
+../Application/User/src/app.cpp:347:1:cpp)	4
+../Application/User/src/app.cpp:347:1:cpp)	4

@@ -1,0 +1,6 @@
+../Application/User/src/Bullet.cpp:13:1:Bullet::~Bullet()	8	static
+../Application/User/src/Bullet.cpp:13:1:virtual Bullet::~Bullet()	8	static
+../Application/User/src/Bullet.cpp:3:1:Bullet::Bullet()	8	static
+../Application/User/src/Bullet.cpp:17:6:bool Bullet::update(uint8_t)	8	static
+../Application/User/src/Bullet.cpp:31:6:bool Bullet::setSize(short int, short int)	0	static
+../Application/User/src/Bullet.cpp:36:6:bool Bullet::setRate(short int)	0	static

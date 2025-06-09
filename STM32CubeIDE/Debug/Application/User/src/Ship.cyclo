@@ -1,0 +1,8 @@
+../Application/User/src/Ship.cpp:16:1:Ship::~Ship()	1
+../Application/User/src/Ship.cpp:16:1:virtual Ship::~Ship()	1
+../Application/User/src/Ship.cpp:4:1:Ship::Ship()	1
+../Application/User/src/Ship.cpp:21:6:bool Ship::update(uint8_t)	6
+../Application/User/src/Ship.cpp:36:6:bool Ship::updateBullet(uint8_t)	2
+../Application/User/src/Ship.cpp:43:6:void Ship::updateShipHp(short int)	1
+../Application/User/src/Ship.cpp:47:6:void Ship::updateVelocityX(short int)	1
+../Application/User/src/Ship.cpp:50:6:void Ship::updateVelocityY(short int)	1

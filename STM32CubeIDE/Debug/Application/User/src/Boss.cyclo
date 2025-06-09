@@ -1,0 +1,6 @@
+../Application/User/src/Boss.cpp:14:1:Boss::~Boss()	1
+../Application/User/src/Boss.cpp:14:1:virtual Boss::~Boss()	1
+../Application/User/src/Boss.cpp:2:1:Boss::Boss()	1
+../Application/User/src/Boss.cpp:18:6:bool Boss::update(uint8_t)	4
+../Application/User/src/Boss.cpp:32:6:bool Boss::updateBullet(uint8_t)	2
+../Application/User/src/Boss.cpp:38:6:void Boss::updateHp(short int)	1

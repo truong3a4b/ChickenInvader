@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_TMC2" Alignment="Center" TypographyId="ScoreBoardFont">
+        <Translation Language="GB">START</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z94D" Alignment="Left" TypographyId="ScoreBoardFont">
+        <Translation Language="GB">0123456789</Translation>
+      </Text>
+      <Text Id="__SingleUse_DB1K" Alignment="Left" TypographyId="ScoreBoardFont">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CR3V" Alignment="Center" TypographyId="ScoreBoardFont">
+        <Translation Language="GB">SCORE:&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_US78" Alignment="Center" TypographyId="ScoreBoardFont">
+        <Translation Language="GB">GO BACK&#10;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ScoreBoardFont" Font="verdana.ttf" Size="24" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
