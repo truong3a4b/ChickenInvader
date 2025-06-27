@@ -11,11 +11,11 @@
 ## Tác giả
 - Tên nhóm: Lowkey
 - Thành viên:
-|STT|Họ và tên      |MSSV    |Công việc           |
+|STT|      Họ và tên      |    MSSV    |      Công việc            |
 |---|---------------------|------------|---------------------------|
-| 1 |Nguyễn Xuân Trưởng  |20225420  |Xây dựng logic game       |
-| 2 |Nguyễn Hà Trung     |20225417  |Xử lý kết nối ngoại vi    |
-| 3 |Nguyễn Tuấn Kiệt    |20225203  |Đánh giá và kiểm thử      |
+| 1 |Nguyễn Xuân Trưởng   |20225420    |Xây dựng logic game        |
+| 2 |Nguyễn Hà Trung      |20225417    |Xử lý kết nối ngoại vi     |
+| 3 |Nguyễn Tuấn Kiệt     |20225203    |Đánh giá và kiểm thử       |
 
 
 ## Môi trường hoạt động
@@ -83,7 +83,7 @@
 - Lấy dữ liệu từ queue và hiển thị màn hình:
   Dữ liệu nằm trong hàng chờ sẽ được GameScreenView poll và lấy ra với mỗi lượt tick trong hàm. Sau đó GameScreenView sẽ xử lý dữ liệu và cập nhật vào đối tượng trong gameInstace (ở đây là hướng di chuyển của      ship – đối tượng mà người chơi điều khiển).
 -------------------------------------------------------------------------------------------------------------------------
-  // Get input
+  void GameScreenView::handleTickEvent() {
 	uint8_t res = 0;
 	uint32_t count = osMessageQueueGetCount(Queue1Handle);
 	if(count > 0) {
@@ -132,6 +132,7 @@
 				gameInstance.ship.updateVelocityY(0);
 			}
 	}
+ }
  ------------------------------------------------------------------------------------------------------
 
 ## Kết quả
