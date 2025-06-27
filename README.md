@@ -1,8 +1,4 @@
 # ChickenInvader
-## Mục lục
-- [Giới thiệu](#giới-thiệu)
-- [Phân tích hệ thống](#phân-tích-hệ-thống)
-- [Triển khai phần mềm](#triển-khai-phần-mềm)
 ## Giới thiệu
 ### Đề bài: Chicken Invader
 ### Sản phẩm: 
