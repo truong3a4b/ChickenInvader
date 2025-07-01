@@ -12,11 +12,11 @@
 - Tên nhóm: Lowkey
 - Thành viên:
   
-|STT|      Họ và tên      |    MSSV    |      Công việc            |
-|---|---------------------|------------|---------------------------|
-| 1 |Nguyễn Xuân Trưởng   |20225420    |Xây dựng logic game        |
-| 2 |Nguyễn Hà Trung      |20225417    |Xử lý kết nối ngoại vi     |
-| 3 |Nguyễn Tuấn Kiệt     |20225203    |Xử lý đồ họa Touch GFX và kiểm thử |
+|STT|      Họ và tên      |    MSSV    |      Công việc                     |
+|---|---------------------|------------|------------------------------------|
+| 1 |Nguyễn Xuân Trưởng   |20225420    |Xây dựng logic game, viết báo cáo   |
+| 2 |Nguyễn Hà Trung      |20225417    |Xử lý kết nối ngoại vi, viết báo cáo|
+| 3 |Nguyễn Tuấn Kiệt     |20225203    |Xử lý đồ họa Touch GFX, viết báo cáo|
 
 
 ## Môi trường hoạt động
