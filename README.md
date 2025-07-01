@@ -72,16 +72,35 @@
 
 ![Image](https://github.com/user-attachments/assets/4302d0eb-5037-491c-85f6-9384eb443c76)
 
-- Khởi tạo màn hình ban đầu:
+- Khởi tạo biến dữ liệu ban đầu: Set up tọa độ và hình ảnh cho các đối tượng shipImage, shipBulletImage, enemyBulletImage, bossBulletImage.
   
 ![image](https://github.com/user-attachments/assets/5109fc43-7ffa-4515-875b-21584b2aa1ce)
 
-- Tạo luồng để thực thi logic game:
+- Hàm setupScreen(): Hàm này được gọi trước khi màn hình hiển thị. Nó thực hiện tác vụ: đóng task cũ, khởi tạo task mới tên là gameTask. Hàm gameTask() sẽ thực hiện xử lý logic trò chơi
 
-   ![image](https://github.com/user-attachments/assets/887ab548-bb2f-4721-9806-486f3cb38346)
+![image](https://github.com/user-attachments/assets/887ab548-bb2f-4721-9806-486f3cb38346)
 
-  
-- Lấy dữ liệu từ queue và hiển thị màn hình:
+### Hàm gameTask(): xử lý logic game
+- Setup dữ liệu ban đầu cho các đối tượng trò chơi
+
+  ![image](https://github.com/user-attachments/assets/bfba2eaf-29a3-4198-8746-4f418bf6390a)
+
+- Cập nhật dữ liệu và kiểm tra kết thúc:
+
+  ![image](https://github.com/user-attachments/assets/44752155-92be-4e4f-9f51-74f0346f5108)
+
+- Xử lý va chạm giữa các đối tượng:
+
+  ![image](https://github.com/user-attachments/assets/553d6205-4760-4060-bc05-ee6e637a8e29)
+
+
+
+### Hàm handleTickEvent(): cập nhật trạng thái giao diện
+- Hiển thị background:
+
+  ![image](https://github.com/user-attachments/assets/ef3bd853-52a6-4a46-a34d-0a2c3fc51a4f)
+
+- Lấy dữ liệu từ queue và cập nhật vị trí đối tượng shipImage trên màn hình:
   Dữ liệu nằm trong hàng chờ sẽ được GameScreenView poll và lấy ra với mỗi lượt tick trong hàm. Sau đó GameScreenView sẽ xử lý dữ liệu và cập nhật vào đối tượng trong gameInstace (ở đây là hướng di chuyển của      ship – đối tượng mà người chơi điều khiển).
 -------------------------------------------------------------------------------------------------------------------------
   void GameScreenView::handleTickEvent() {
@@ -135,6 +154,8 @@
 	}
  }
  ------------------------------------------------------------------------------------------------------
+
+- Hiển thị và cập nhật vị trí các đối tưọng shipBulletImage, enemyBulletImage, bossBulletImage trên màn hình.
 
 ## Kết quả
 https://youtube.com/shorts/of9vHE52DOw
