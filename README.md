@@ -16,7 +16,7 @@
 |---|---------------------|------------|---------------------------|
 | 1 |Nguyễn Xuân Trưởng   |20225420    |Xây dựng logic game        |
 | 2 |Nguyễn Hà Trung      |20225417    |Xử lý kết nối ngoại vi     |
-| 3 |Nguyễn Tuấn Kiệt     |20225203    |Đánh giá và kiểm thử       |
+| 3 |Nguyễn Tuấn Kiệt     |20225203    |Xử lý đồ họa Touch GFX và kiểm thử |
 
 
 ## Môi trường hoạt động
